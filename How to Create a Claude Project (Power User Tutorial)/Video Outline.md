@@ -1,0 +1,219 @@
+# YouTube Video Outline: "How to Create a Claude Project (Power User Tutorial)"
+
+## Hook (0-15 seconds)
+"Instead of just showing you how to create Claude projects, I'm going to teach you by building the ultimate meta-project - a Claude Project Factory that creates other projects for you. You'll learn project fundamentals while building something immediately useful."
+
+## Part 1: Learning by Building - The Project Factory Setup (15 seconds - 8 minutes)
+
+### Live Build Introduction
+"We're jumping straight into creating our 'Claude Project Factory' - I'll explain each project feature as we build this meta-tool."
+
+### Project Creation Process (Live Demo)
+**Step 1: Basic Setup**
+- Navigate to claude.ai/projects (show the interface)
+- Click "+ New Project" 
+- **Name**: "Claude Project Factory"
+- **Description**: "Specialized assistant for creating optimized Claude projects"
+- Show visibility settings (explain private vs. organization sharing)
+
+**Step 2: Project Instructions (The Brain)**
+*As we type this, explain what project instructions do:*
+
+```
+You are a Claude Project Builder specialist. When a user describes a project need, you:
+
+1. ANALYZE the use case and identify key requirements
+2. GENERATE optimized project instructions with clear role definition
+3. RECOMMEND specific knowledge base contents and organization
+4. CREATE starter prompt templates for common tasks within that domain
+5. SUGGEST implementation strategies and testing approaches
+
+Your responses should be immediately actionable. Focus on practical project setups that maximize Claude's capabilities within project constraints.
+
+Always ask clarifying questions about:
+- Primary use cases and workflows
+- Team collaboration needs  
+- Existing documentation or resources
+- Success metrics and goals
+```
+
+*Explain while typing*: "Project instructions are like hiring instructions for Claude - this is how it behaves in ALL conversations within this project."
+
+**Step 3: Knowledge Base Setup (The Context)**
+*Show the right sidebar while explaining*: "Everything we upload here becomes available context for every conversation in this project."
+
+**Upload these documents** (create/demonstrate each):
+
+1. **Project Best Practices Guide** (create live):
+```
+# Claude Project Optimization Guide
+
+## Effective Project Instructions
+- Define Claude's specific role and expertise
+- Set communication preferences and tone
+- Include workflow patterns and processes
+- Specify output formats and structure requirements
+
+## Knowledge Base Strategy
+- Prioritize frequently referenced information
+- Use clear, scannable document structure
+- Keep individual files focused and organized
+- Plan for RAG mode when approaching context limits
+
+## Common Project Types
+- Content Creation Hub
+- Research Assistant
+- Technical Documentation Manager
+- Client Communication Center
+- Strategic Planning Partner
+```
+
+2. **Template Library** (demonstrate structure):
+```
+# Project Instruction Templates
+
+## Marketing Assistant Template
+You are a strategic marketing assistant specializing in [INDUSTRY]. 
+Your expertise includes [SPECIFIC AREAS].
+Always consider [KEY CONSTRAINTS/PREFERENCES].
+
+## Research Analyst Template  
+You are a research analyst focused on [DOMAIN].
+Provide comprehensive analysis with clear methodology.
+Structure findings as: Summary → Key Insights → Recommendations → Sources
+
+## Technical Consultant Template
+You are a technical consultant for [TECHNOLOGY/DOMAIN].
+Prioritize practical, implementable solutions.
+Include step-by-step guidance and potential pitfalls.
+```
+
+3. **Prompt Engineering Guidelines**:
+```
+# Effective Project Prompts
+
+## Specificity Principles
+- Define exact outputs needed
+- Provide context and constraints
+- Include success criteria
+- Specify format requirements
+
+## Common Prompt Patterns for Projects
+- "Acting as [PROJECT ROLE], analyze..."
+- "Given our project focus on [DOMAIN], how would you..."
+- "Create a [DELIVERABLE] that aligns with our [PROJECT CONTEXT]..."
+```
+
+**Step 4: First Test Run**
+*Immediately test the Project Factory we just built*:
+
+**Prompt**: "I need a project for managing social media content for a B2B SaaS company. They focus on marketing automation tools, target marketing directors at mid-size companies, and need help with LinkedIn content, email newsletter ideas, and competitive analysis."
+
+*Show the live response and explain*: "Notice how it's already using our uploaded context to give structured, actionable advice."
+
+## Part 2: Advanced Project Factory Features (8-13 minutes)
+
+### Template Generation in Action
+**Live Demo**: Use our Project Factory to create different project types
+
+**Example 1 - Content Strategy Project**:
+*Show the full workflow*:
+1. Input: "Content strategy project for a healthcare technology startup"
+2. Project Factory generates complete setup
+3. Actually create the project using the recommendations
+4. Quick test to show it working
+
+**Example 2 - Technical Documentation Project**:
+1. Input: "Documentation management for a software development team"
+2. Show how Project Factory adapts recommendations
+3. Highlight knowledge base suggestions
+
+### Knowledge Base Optimization Demo
+*Using our Project Factory*:
+- Ask: "How should I optimize knowledge base documents for a project that handles customer support responses?"
+- Show real-time optimization suggestions
+- Demonstrate document structuring principles
+
+### Project Instruction Engineering
+*Live refinement*:
+- Ask Project Factory: "Improve these project instructions: 'Help me write better emails'"
+- Show before/after comparison
+- Explain why the improvements work
+
+## Part 3: Scaling Your Project System (13-16 minutes)
+
+### Project Management Workflows
+**Using Project Factory for Organization**:
+- Ask: "Create a system for managing multiple Claude projects efficiently"
+- Show starring/archiving strategies
+- Demonstrate naming conventions
+
+**Team Collaboration** (for Claude for Work users):
+- Project sharing permissions (Can use vs. Can edit)
+- Organization-wide project strategies
+- Knowledge base sharing approaches
+
+### Building Your Project Library
+**Live Strategy Session**:
+- Use Project Factory to plan 5 essential projects for different use cases
+- Show prioritization framework
+- Demonstrate template reuse strategies
+
+### Maintenance and Evolution
+- Version control for project instructions
+- Knowledge base update workflows  
+- Performance monitoring for projects
+
+## Part 4: Real-World Implementation (16-18 minutes)
+
+### Complete Walkthrough
+*Pick one viewer-suggested use case and build it completely*:
+1. Project Factory analysis
+2. Live project creation
+3. Knowledge base setup
+4. Testing and refinement
+5. Integration into workflow
+
+### Troubleshooting Common Issues
+- Context window management
+- RAG mode optimization
+- Project instruction conflicts
+- Knowledge base organization problems
+
+## Wrap-up & Challenge (18-20 minutes)
+
+### What We Built
+1. **Project Factory**: Meta-tool for creating optimized projects
+2. **Template System**: Reusable frameworks for common needs
+3. **Optimization Framework**: Strategic approach to project management
+
+### Viewer Challenge
+"Use the Project Factory concept to create your own specialized project builder. Focus on your specific industry or role. Share your Project Factory's first creation in the comments - I'll feature the most creative ones."
+
+### Next Steps
+- Download the Project Factory template (link in description)
+- Build 3 projects using your new factory
+- Join the community for advanced project strategies
+
+---
+
+## Production Notes
+
+**Key Visual Elements**:
+- Split screen: Project Factory input → Generated recommendations → Live implementation
+- Before/after comparisons of project instructions
+- Knowledge base organization demonstrations
+- Real-time project testing
+
+**Downloadable Resources**:
+- Complete Project Factory setup files
+- Template library starter pack
+- Project optimization checklist
+- Implementation workflow guide
+
+**Engagement Strategy**:
+- Pause points for viewers to follow along
+- Real-time problem-solving demonstrations
+- Community challenge with specific deliverables
+
+This approach teaches project fundamentals through practical application while immediately delivering a powerful meta-tool that viewers can use to optimize their entire Claude workflow.
