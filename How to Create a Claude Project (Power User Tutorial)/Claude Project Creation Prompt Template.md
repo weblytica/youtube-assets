@@ -25,17 +25,17 @@ If the user doesn't answer a question, assume the suggested option and continue.
 #### CORE UNDERSTANDING (Universal Questions 1-8)
 
 1. **What is your primary project objective?**
-   - A. Process automation and workflow optimization (suggested)
-   - B. Content creation and marketing materials
-   - C. Data analysis and reporting systems
-   - D. Research and knowledge synthesis
-   - E. Technical development and integration
+   - A. Process improvement and workflow enhancement (suggested)
+   - B. Content creation and communication materials
+   - C. Analysis and research synthesis
+   - D. Strategic planning and decision support
+   - E. Knowledge management and documentation
 
 2. **What type of deliverable are you expecting?**
-   - A. Complete working system/automation (suggested)
+   - A. Complete working solution ready for implementation (suggested)
    - B. Strategic framework and documentation
    - C. Step-by-step implementation guide
-   - D. Analysis and recommendations
+   - D. Analysis and recommendations report
    - E. Creative content and templates
 
 3. **How do you prefer to work with Claude?**
@@ -46,98 +46,98 @@ If the user doesn't answer a question, assume the suggested option and continue.
    - E. Technical partnership for complex builds
 
 4. **What defines project success for you?**
-   - A. Measurable efficiency gains and time savings (suggested)
-   - B. Quality outputs that meet specific standards
+   - A. Clear, actionable outcomes that solve the core problem (suggested)
+   - B. High-quality outputs that meet specific standards
    - C. Successful integration with existing workflows
    - D. Clear documentation and knowledge transfer
-   - E. Scalable solution for future growth
+   - E. Scalable solution for future application
 
 5. **What is your timeline expectation?**
-   - A. Immediate start with phased delivery (suggested)
-   - B. Quick proof of concept, then full build
+   - A. Immediate start with iterative delivery (suggested)
+   - B. Quick proof of concept, then full development
    - C. Thorough planning phase, then execution
    - D. Flexible timeline based on complexity
    - E. Specific deadline-driven schedule
 
-6. **What existing tools/platforms must be integrated?**
-   - A. Make.com scenarios and automation tools (suggested)
-   - B. CRM, project management, or business systems
-   - C. Content management and marketing platforms
-   - D. Data sources and analytics tools
-   - E. Custom or specialized software
+6. **What existing systems or processes need to be considered?**
+   - A. Current workflows and established procedures (suggested)
+   - B. Existing documentation and knowledge bases
+   - C. Team structures and communication patterns
+   - D. Quality standards and approval processes
+   - E. Minimal existing infrastructure to consider
 
-7. **What level of technical complexity are you comfortable with?**
-   - A. Moderate - some technical learning acceptable (suggested)
-   - B. Simple - minimal technical requirements
-   - C. Advanced - comfortable with complex implementations
-   - D. Variable - depends on specific components
-   - E. Unknown - need guidance on complexity level
+7. **What level of complexity are you comfortable with?**
+   - A. Moderate complexity with clear explanations (suggested)
+   - B. Simple and straightforward approach
+   - C. Advanced complexity with detailed implementation
+   - D. Variable complexity based on specific components
+   - E. Need guidance on appropriate complexity level
 
-8. **What are your key constraints or limitations?**
-   - A. Budget and resource limitations (suggested)
-   - B. Technical platform restrictions
-   - C. Timeline and deadline pressures
-   - D. Skill or knowledge gaps
-   - E. Integration with existing systems
+8. **What are the most important factors for this project?**
+   - A. Quality and reliability of outcomes (suggested)
+   - B. Speed and efficiency of delivery
+   - C. Ease of use and adoption
+   - D. Comprehensive coverage and completeness
+   - E. Innovation and creative approach
 
 **Based on your responses, exploring domain-specific requirements...**
 
 #### DOMAIN-SPECIFIC EXPLORATION (Questions 9+)
 
-##### For Automation/Workflow Projects (If A selected in Q1):
+##### For Process/Workflow Projects (If A selected in Q1):
 
-9. **What business process needs automation?**
-   - A. Data transfer and synchronization between systems (suggested)
-   - B. Customer communication and follow-up sequences
-   - C. Content creation and distribution workflows
-   - D. Reporting and analytics automation
-   - E. Administrative and operational tasks
+9. **What type of process improvement is needed?**
+   - A. Information flow and communication enhancement (suggested)
+   - B. Decision-making and approval workflows
+   - C. Quality control and validation processes
+   - D. Coordination and collaboration improvements
+   - E. Documentation and knowledge capture
 
-10. **What is your error handling preference?**
-    - A. Comprehensive error tracking with notifications (suggested)
-    - B. Simple retry mechanisms with basic logging
-    - C. Manual intervention points for critical failures
-    - D. Automatic fallback procedures
-    - E. Real-time monitoring with instant alerts
+10. **What is your approach to handling exceptions or edge cases?**
+    - A. Clear protocols with escalation paths (suggested)
+    - B. Flexible handling based on context
+    - C. Standardized responses to common issues
+    - D. Manual intervention for complex cases
+    - E. Comprehensive contingency planning
 
-11. **How important is scalability for future growth?**
-    - A. Very important - build for expansion (suggested)
-    - B. Moderate - some growth consideration
-    - C. Low - focus on current needs
+11. **How important is adaptability for future changes?**
+    - A. Very important - build for flexibility (suggested)
+    - B. Moderate - some adaptation capability
+    - C. Low - focus on current requirements
     - D. Unknown - need guidance on this
-    - E. Critical - must handle significant scale
+    - E. Critical - must handle significant variation
 
 ##### For Content/Creative Projects (If B selected in Q1):
 
 9. **What type of content creation is needed?**
-   - A. Marketing materials and promotional content (suggested)
+   - A. Professional communication and documentation (suggested)
    - B. Educational and training materials
-   - C. Technical documentation and guides
-   - D. Creative writing and storytelling
-   - E. Visual content and design templates
+   - C. Strategic and planning documents
+   - D. Creative and engaging content
+   - E. Technical guides and reference materials
 
-10. **Who is your target audience?**
-    - A. Business professionals and decision-makers (suggested)
-    - B. Technical users and implementers
-    - C. General consumers and end-users
-    - D. Industry specialists and experts
-    - E. Internal team and stakeholders
+10. **Who is your primary audience?**
+    - A. Professional colleagues and stakeholders (suggested)
+    - B. Technical specialists and experts
+    - C. General audience and end-users
+    - D. Leadership and decision-makers
+    - E. Internal team and collaborators
 
-##### For Technical/Data Projects (If C selected in Q1):
+##### For Analysis/Research Projects (If C selected in Q1):
 
-9. **What data sources will you be working with?**
-   - A. Business system databases and APIs (suggested)
-   - B. Spreadsheets and manual data entry
-   - C. Web scraping and external sources
-   - D. Real-time feeds and streaming data
-   - E. Historical archives and legacy systems
+9. **What type of analysis or research is required?**
+   - A. Information synthesis and pattern identification (suggested)
+   - B. Comparative analysis and evaluation
+   - C. Trend analysis and forecasting
+   - D. Problem diagnosis and solution development
+   - E. Comprehensive research and documentation
 
-10. **What level of data validation is required?**
-    - A. Standard business rules with exception handling (suggested)
-    - B. Basic format and completeness checks
-    - C. Advanced statistical validation and anomaly detection
-    - D. Manual review and approval workflows
-    - E. Real-time monitoring and alerting
+10. **What level of validation and verification is needed?**
+    - A. Standard verification with source checking (suggested)
+    - B. Basic fact-checking and consistency review
+    - C. Comprehensive validation with multiple sources
+    - D. Peer review and expert consultation
+    - E. Real-time monitoring and updates
 
 #### IMPLEMENTATION DETAILS (Final Questions)
 
@@ -208,17 +208,17 @@ Once confirmed, I'll create comprehensive project documentation using this struc
 - **Risk Profile:** [Based on complexity assessment and constraints]
 
 ### Technical Specifications
-- **Required Tools/Platforms:** [From integration requirements]
+- **Required Capabilities:** [From system and process requirements]
 - **Complexity Level:** [Based on user comfort and objectives]
-- **Error Handling Strategy:** [From user preferences]
-- **Scalability Requirements:** [Future growth considerations]
+- **Exception Handling Strategy:** [From user preferences]
+- **Adaptability Requirements:** [Future change considerations]
 - **Quality Standards:** [Based on success criteria]
 
 ### Context & Background
 - **Domain Knowledge:** [Industry/field-specific information]
-- **User Expertise Level:** [Based on technical comfort responses]
+- **User Expertise Level:** [Based on complexity comfort responses]
 - **Integration Context:** [Existing systems and workflows]
-- **Constraint Profile:** [Limitations and boundary conditions]
+- **Priority Factors:** [Key considerations and trade-offs]
 
 ### Collaboration Framework
 - **Communication Style:** [From working preference responses]
@@ -236,10 +236,10 @@ Breaking work into 3-6 independent parts where each part:
 
 ### Expert Perspective Integration
 Analysis from relevant expert viewpoints:
-- **Technical Expert:** Implementation feasibility and best practices
+- **Implementation Expert:** Feasibility and best practices
 - **Process Expert:** Workflow optimization and efficiency
 - **User Experience Expert:** Adoption and usability considerations
-- **Business Expert:** ROI and strategic alignment
+- **Strategic Expert:** Alignment and long-term value
 
 ## Project Instructions Document Creation
 
@@ -253,7 +253,7 @@ After completing adaptive questioning and receiving confirmation, I will create 
 
 2. **Project Configuration**
    - Recommended Claude features based on requirements
-   - Required integrations and tool access
+   - Required capabilities and access needs
    - Quality gates and validation checkpoints
 
 3. **Execution Framework**
