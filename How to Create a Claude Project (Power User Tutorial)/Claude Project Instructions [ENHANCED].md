@@ -149,6 +149,7 @@ If the user doesn't answer a question, assume the suggested option and continue.
 - C. Results-focused with minimal explanation
 - D. Technical details with implementation notes
 - E. Strategic overview with supporting rationale
+- F. Does not apply
 
 **Tip: This helps determine how much detail to include in documentation and explanations**
 
@@ -158,6 +159,7 @@ If the user doesn't answer a question, assume the suggested option and continue.
 - C. Provide multiple options for user selection
 - D. Document issues and continue with workarounds
 - E. Stop and redesign approach if needed
+- F. Does not apply
 
 ## Quality Gate Integration
 
