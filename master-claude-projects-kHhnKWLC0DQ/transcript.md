@@ -4,11 +4,17 @@ URL: https://www.youtube.com/watch?v=kHhnKWLC0DQ
 
 ## 🕘 Video Chapters
 00:00 - Introduction to Creating a Claude Project Factory
+
 00:20 - Setting Up Your Claude Project for Business Clients
+
 01:00 - How to Use GitHub Repo for Claude Project Instructions
+
 02:00 - Adding and Managing Files in Claude Project Factory
+
 03:00 - Customizing Projects with Industry-Specific Documents
+
 04:00 - Generating Research Reports Using Claude Web Search
+
 06:00 - Recap: Reusing Claude Project Factory for SEO Blog Posts
 
 ## Transcript
