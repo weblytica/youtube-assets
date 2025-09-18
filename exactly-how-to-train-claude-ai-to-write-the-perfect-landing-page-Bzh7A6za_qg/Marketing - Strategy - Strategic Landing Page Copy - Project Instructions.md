@@ -1,4 +1,4 @@
-# Marketing » Strategy » Strategic Landing Page Copy
+# 🎉 Marketing » Strategy » Strategic Landing Page Copy (Project Instructions)
 
 ## 1. Purpose & Scope
 **Project Goal:** Generate high-converting landing page copy using the validated 10-section psychological framework for service businesses  
