@@ -1,49 +1,118 @@
-This Make.com scenario automates deep research on personality types using Perplexity's Sonar Deep Research model. Here's the workflow breakdown:
+# AI Personality Research Assistant System
 
-## Scenario Purpose
-Batch processes research topics for different personality types (like ISTJ-A), generating comprehensive research documents and storing them in Dropbox.
+Transform your 16 Personalities test results into a comprehensive AI-powered research system that understands your psychological architecture better than you understand yourself.
 
-## Workflow Structure
+## 📺 Video Tutorial
+**Watch the full build process:** [Turn Your Personality Test Into An AI Research Assistant](https://www.youtube.com/watch?v=_8J7svZ7LgI)
 
-### 1. **Google Sheets Trigger** (Module 1)
-- Reads from "KBPP Personality Data" spreadsheet
-- Filters for rows where:
-  - Column A (Folder) has content
-  - Column D (Content) is empty
-- Processes one row at a time
-- Extracts: Folder name, Title, Filename
+## System Overview
 
-### 2. **Router with Two Paths**
+This repository contains the complete system for building an AI research assistant based on your personality type (MBTI/16 Personalities). The system creates a personalized knowledge base worth $500+ that helps you:
 
-**Path 1: Research Processing** (when row exists)
-- **Set Variables** (Module 3): Configures personality type (ISTJ-A) and Dropbox directory
-- **Compose Search Query** (Module 2): Creates detailed research prompt focusing on:
-  - How specific personality types experience the topic
-  - Behavioral patterns, challenges, strengths
-  - Communication styles and decision-making
-  - Support needs and success strategies
-- **Perplexity API Call** (Module 6): Uses sonar-deep-research model with low search context
-- **Citation Processing** (Modules 8-9): Extracts and formats citations from research
-- **Final Composition** (Module 7): Strips thinking tags, combines research with citations
-- **Dropbox Upload** (Module 10): Saves to `/GitHub/Absolutely Everything is Code/personalities/[folder]/[filename]`
-- **Sheet Update** (Module 11): Marks row as "Complete" in column D
+- Understand your behavioral patterns and triggers
+- Navigate conflicts with different personality types
+- Optimize your work and learning styles
+- Make better personal and professional decisions
+- Bridge the gap between logic and emotion (especially for thinking types)
 
-**Path 2: Scenario Shutdown** (when no rows found)
-- **Stop Scenario** (Module 13): Turns off the scenario when processing complete
+## What's Included
 
-## Key Technical Details
+### 1. Research Automation Blueprint
+**File:** `Deep Research with Perplexity Sonar.blueprint.json`
+- Make.com scenario for automated deep research
+- Processes personality topics using Perplexity's Sonar Deep Research model
+- Auto-generates comprehensive research documents
+- Self-terminating workflow (stops when research is complete)
 
-- **Authentication**: Uses connections for Google, Perplexity, Dropbox, and Make.com
-- **Research Template**: Generic enough to work across personality types and topics
-- **File Organization**: Structured folder hierarchy based on personality types
-- **Progress Tracking**: Updates source spreadsheet to prevent reprocessing
-- **Self-Terminating**: Automatically stops when no more rows to process
+### 2. Topic Scaffolding System
+**File:** `topic-research-scaffolding-project-instructions.md`
+- Claude Project instructions for systematic topic breakdown
+- Generates folder hierarchies and article lists
+- Creates 70-100+ research targets per personality type
+- Outputs CSV format for easy spreadsheet import
 
-## Production Considerations
+### 3. Research Prompt Template
+**File:** `personality-research-prompt.md`
+- Professional research prompt for Perplexity integration
+- Focuses on personality-specific challenges and strengths
+- Covers behavioral patterns, communication styles, and success strategies
+- Designed for actionable insights rather than theory
 
-- **Error Handling**: No explicit error handlers visible - add Break handlers for production
-- **Rate Limiting**: Processing one row at a time prevents API overload
-- **Token Usage**: Perplexity deep research can be expensive - monitor usage
-- **File Overwrite**: Set to false, preventing accidental data loss
+### 4. Real-World Examples
+**Files:** `prompt-response-example-1.md`, `prompt-response-example-2.md`
+- Example: Why this repository approach is valuable for ISTP-T types
+- Example: Handling conflict with emotional, detail-oriented colleagues
+- Shows practical application of the research system
 
-This is a well-structured batch processing scenario for generating personality-focused research content at scale. Consider adding error handling and monitoring token consumption for production use.
+## Quick Start Guide
+
+### Step 1: Take Your Personality Test
+1. Go to [16personalities.com](https://16personalities.com)
+2. Take the free test (recommend paying $9 for extended results)
+3. Document your personality type (e.g., ISTP-T) and all trait scores
+
+### Step 2: Generate Research Scaffolding
+1. Use the Topic Scaffolding System with Claude
+2. Input your personality data
+3. Receive 70-100+ article topics organized in folder structure
+4. Export to CSV for tracking
+
+### Step 3: Automate Research Collection
+1. Import the Make.com blueprint
+2. Connect to Google Sheets, Perplexity, and Dropbox
+3. Run the scenario to research all topics automatically
+4. System self-terminates when complete
+
+### Step 4: Create Your AI Assistant
+1. Push research to GitHub
+2. Create a Claude Project
+3. Connect your GitHub repository
+4. Start asking personalized questions
+
+## Key Features
+
+### For ISTP-T Example (Adjust for Your Type)
+- **Operating System Approach:** Treats your mind like software with documentation
+- **Logic-Emotion Bridge:** Reframes emotional challenges as debuggable data points
+- **Perfectionism Management:** Turns 97% perfectionism into strategic advantage
+- **Energy Architecture:** Respects 85% introversion with time-boxing protocols
+- **Crisis Protocols:** Pre-built frameworks for overwhelm and conflict
+
+## Technical Stack
+
+- **Research Engine:** Perplexity Sonar Deep Research
+- **Automation:** Make.com (self-terminating scenarios)
+- **Storage:** Dropbox → GitHub
+- **AI Interface:** Claude Projects
+- **Data Management:** Google Sheets
+
+## Investment & Value
+
+- **DIY Cost:** ~$50-100 in API credits
+- **Time Investment:** 2-3 hours setup + overnight research run
+- **Commercial Value:** $500+ if built professionally
+- **Ongoing Value:** 3-5 hours saved per new research topic
+
+## Important Notes
+
+- **Not a Replacement:** Enhances human understanding, doesn't replace human contact
+- **Personalized Results:** Your repository will be unique to your personality type
+- **Expandable System:** Can add new research topics as needed
+- **Privacy First:** All data stays in your control (Dropbox, GitHub, Claude)
+
+## Use Cases
+
+- Pre-meeting preparation for difficult conversations
+- Understanding recurring relationship patterns
+- Career decision making aligned with personality
+- Learning style optimization
+- Stress management and energy conservation
+- Team dynamics and collaboration strategies
+
+## Support
+
+For professional implementation or team deployments, contact Weblytica, LLC.
+
+---
+
+*This system was developed to help individuals leverage AI for deep self-understanding and practical life optimization. Use it to enhance, not replace, human connection and professional guidance.*
