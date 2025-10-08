@@ -1,4 +1,4 @@
-Title: Turn Your Personality Test Into An AI Research Assistant
+# Turn Your Personality Test Into An AI Research Assistant
 
 URL: https://www.youtube.com/watch?v=_8J7svZ7LgI
 
