@@ -1,6 +1,6 @@
 # Personality Research Prompt for Perplexity
 
-Prompt for Make.com Scenario, replace [] and [] with mappings from data source (i.e. Google Sheets)
+Prompt for Make.com Scenario, replace [Document Title] and [Perosonality Type] with mappings from data source (i.e. Google Sheets)
 
 This prompt is also in the scenario blueprint: `ai-personality-assistant-_8J7svZ7LgI/Deep Research with Perplexity Sonar.blueprint.json`
 
