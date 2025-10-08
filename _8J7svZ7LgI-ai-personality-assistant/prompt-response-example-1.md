@@ -1,5 +1,7 @@
 ```
-I'm currently doing a YouTube video talking about the repository that I've built with my ISTP-T personality. Would you tell the fine people watching why this approach is valuable? Please summarize in a few bullet points
+I'm currently doing a YouTube video talking about the repository that I've built with my ISTP-T personality.
+Would you tell the fine people watching why this approach is valuable?
+Please summarize in a few bullet points
 ```
 
 Based on the repository content, here are the key value points for your YouTube audience:
