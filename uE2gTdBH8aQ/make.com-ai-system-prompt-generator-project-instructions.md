@@ -1,4 +1,4 @@
-# Technology » AI » Make.com AI Agent Prompt Generator
+# Technology » AI » Make.com AI Agent Prompt Generator (Project Instructions)
 
 ## 1. Purpose & Scope
 
