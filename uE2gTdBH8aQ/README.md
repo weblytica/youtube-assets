@@ -175,7 +175,3 @@ Created using the Claude Project Factory methodology. Based on extensive researc
 - Research file includes patterns from FamilyMate.AI community and official Make.com guidance
 
 ---
-
-**Character Count Target**: 1,800-2,200 characters  
-**Architecture**: Tool-first, prompt-second  
-**Philosophy**: Global reusability, compression with clarity
