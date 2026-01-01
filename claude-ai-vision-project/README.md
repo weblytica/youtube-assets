@@ -6,6 +6,8 @@
 2. Click the "copy raw file" button on the right side above the document
 3. Paste the entire file into your Claude AI Project Instructions
 
-## Need Help?
+## Resources
 
-Call "Sierra" my AI Booking Assistant to book a call: (816) 945-4001
+[Video Transcript](https://github.com/weblytica/youtube-assets/blob/main/claude-ai-vision-project/transcript.md)
+
+Need help? Call "Sierra" my AI Booking Assistant to book a call: (816) 945-4001
