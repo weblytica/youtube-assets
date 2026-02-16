@@ -1,8 +1,0 @@
-{
-  "user_name": "Your Name",
-  "organization": "Your Business Name",
-  "categories": ["client", "internal", "personal"],
-  "priorities": ["urgent", "high", "medium", "low"],
-  "default_priority": "medium",
-  "auto_archive": true
-}
