@@ -113,9 +113,11 @@ A section at the bottom of the popup called "Copy with Context." It contains:
 - A text input (or small textarea) pre-filled with "Here's the link:" (editable by the user)
 - A dropdown or radio to select which link variant to pair with the text (default: Share link)
 - A "Copy" button that copies the combined text to clipboard, e.g.:
-  ```
+
+  
   Here's the link: https://docs.google.com/document/d/{ID}/edit?usp=sharing
-  ```
+  
+  
 - Remember the user's last custom text using `chrome.storage.local` so it persists between popup opens
 - Include a few quick-select preset phrases:
   - "Here's the link:"
@@ -163,7 +165,6 @@ A section at the bottom of the popup called "Copy with Context." It contains:
 
 ## File Structure
 
-```
 drive-link-toolkit/
   manifest.json
   popup.html
@@ -173,7 +174,7 @@ drive-link-toolkit/
     icon16.png
     icon48.png
     icon128.png
-```
+
 
 Keep it simple. Single HTML file for the popup, one CSS file, one JS file. No build tools, no frameworks, no dependencies.
 
