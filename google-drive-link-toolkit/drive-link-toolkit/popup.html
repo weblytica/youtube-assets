@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Drive Link Toolkit</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="title">Drive Link Toolkit</div>
+    <div id="typeBadge" class="badge badge-empty">No file detected</div>
+  </div>
+
+  <div class="input-row">
+    <input type="text" id="idInput" placeholder="Paste a File ID or URL" autocomplete="off" />
+    <button id="clearBtn" class="btn-small" title="Clear">×</button>
+  </div>
+
+  <div id="fileIdDisplay" class="file-id" hidden>
+    <span class="label">File ID</span>
+    <code id="fileIdValue"></code>
+    <button class="icon-btn" data-copy-target="fileId" title="Copy ID">⧉</button>
+  </div>
+
+  <div id="emptyState" class="empty-state">
+    Open a Google Drive file or paste a File ID above to get started.
+  </div>
+
+  <div id="linksContainer" hidden></div>
+
+  <div id="composer" class="composer" hidden>
+    <div class="section-header">Copy with Context</div>
+    <div class="presets" id="presets"></div>
+    <textarea id="customText" rows="2">Here's the link:</textarea>
+    <div class="composer-row">
+      <select id="linkSelect"></select>
+      <button id="copyComposed" class="primary">Copy</button>
+    </div>
+    <div id="composerFeedback" class="feedback"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
