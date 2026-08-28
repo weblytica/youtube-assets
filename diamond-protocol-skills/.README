@@ -1,1 +1,22 @@
+## Follow-Up Email Writer
 
+Output from a full run of the Project Diamond protocol, kept here as a worked example of the three-step workflow: prompt builder, deep research, project instructions.
+
+The goal was a Claude Project that drafts sales follow-up emails which read as human and relational rather than transactional. Connection is the objective; interest in working together is the byproduct.
+
+### Files
+
+| File | What it is |
+|------|-----------|
+| `follow-up-email-research-brief.md` | Step 2 output. Multi-source research on what makes follow-up emails persuasive without being pushy: reply-driving structure, tactics that read as sleazy, cadence benchmarks, and deliverability and compliance constraints. Sources are flagged as independent or vendor-published, since most published email benchmarks come from companies that profit from more sending. |
+| `sales-strategy-follow-up-email-writer.md` | Step 3 output. The compiled Claude Project Instructions Framework. Eight sections covering purpose, role, formatting, domain knowledge, accuracy rules, tone, and reuse, plus an explicit list of what the Project will not do. |
+
+### How to use them
+
+1. Paste the instructions file into the Project Instructions field of a new Claude Project.
+2. Upload the research brief as the first knowledge-base document. The instructions reference it by name, so keep the filename stable.
+3. Run a few real drafts before trusting it. If output does not match what you would actually send, tighten the instructions rather than re-prompting each time.
+
+### Note on the research
+
+The brief optimizes for reply rate. The Project instructions deliberately subordinate that to relationship quality, using the research for mechanics only. If drafts start feeling transactional, section 4 of the instructions is the place to adjust.
