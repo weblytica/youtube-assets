@@ -4,7 +4,7 @@ A free Claude Skill that teaches you Make.com by building a real scenario with y
 
 Claude builds the **Daily Unsubscribe Digest (Unsubby)** scenario in nine short stages. After each stage it explains what it added, pins a note to every new module, gives each module a clear name, and waits for you before moving on. You finish with a working scenario, notes on every module, and a Markdown guide you keep.
 
-Video walkthrough: [YOUTUBE LINK]
+Video walkthrough: https://youtu.be/BQWkzwtzdIo
 
 ## What the scenario does
 
