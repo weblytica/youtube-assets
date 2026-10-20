@@ -6,6 +6,8 @@ You build it yourself with a free Claude skill, `weblytica-calendly-sidepanel-bu
 
 Built by Andy O'Neil, [Weblytica](https://weblytica.com).
 
+[YouTube Video](https://youtu.be/yz8GE9p2TcU?si=p8HqPBf8HYZQgs9S)
+
 ---
 
 ## The problem it solves
